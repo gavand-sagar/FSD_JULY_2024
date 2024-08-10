@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ThirdPRoject(Sanjay).css" />
+</head>
+<body>
+<style>
+    body{
+    background-color: rgba(245,244,244,255);
+    margin: 0;
+    padding: 0;
+}
+
+.Headder{
+   display: flex;
+    border: 1px solid #f5f4f4;
+    padding: 10px;
+}
+h1{
+    margin-top: 40px;
+}
+.TopButtons{
+   display: flex;
+    margin-left: 8%;
+    padding: 2.5%;
+   
+}
+.next{
+    display:flex;
+    border: 1px solid #f5f4f4;
+    margin-left: 50%;
+
+}
+.TopButtons .o {
+    margin-right: 10px; 
+}
+
+.o,.t{
+    border: 2px solid ;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.next .thr{
+    margin-right: 10px;
+}
+
+.thr,.fou{
+    margin-top: 25%;
+    border: 2px solid ;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+hr{
+   border: none;
+   height:4px;
+   width:100%;
+   background-color:rgba(114,223,182,255);
+}
+
+.SideButton{
+   float:left;
+    margin: 15px;
+    border-right: 3px solid rgba(237,236,236,255);
+    width:10%;
+    height: 280px;
+    padding:20px;
+}
+
+.script,.react{
+   width: 20px;
+    margin-right: 5px;
+    border: 1px solid #e22462;
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    background-color:rgba(226,36,98,255) ;
+    cursor: pointer;
+}
+.node{
+    margin-top: 15px;
+    border: 1px solid #e22462;
+    width:35%;
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    background-color:rgba(226,36,98,255) ;
+    cursor: pointer;
+}
+.router{
+width: 50%;
+border: 1px solid #e22462;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color:rgba(226,36,98,255) ;
+    cursor: pointer;
+}
+.redux{
+  display:inline-block;
+  margin-top: 18px;
+   margin-right: 5px;
+  grid-template-columns: 1fr;
+    border: 1px solid #e22462;
+    width:30%;
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    background-color:rgba(226,36,98,255) ;
+    cursor: pointer;
+}
+ 
+.graph{
+   display:inline-block;
+   margin-top: 18px;
+      border: 1px solid #e22462;
+        width:40%;
+        padding: 7px;
+        border-radius: 15px;
+        color: white;
+        background-color:rgba(226,36,98,255) ;
+        cursor: pointer;
+    }
+    .html5{
+        display:inline-block;
+        margin-top: 8px;
+         margin-right: 5px;
+        grid-template-columns: 1fr;
+          border: 1px solid #e22462;
+          width:35%;
+          padding: 7px;
+          border-radius: 15px;
+          color: white;
+          background-color:rgba(226,36,98,255) ;
+          cursor: pointer;
+    }
+    .css{
+        display:inline-block;
+             border: 1px solid #e22462;
+             width:25%;
+             padding: 7px;
+             border-radius: 15px;
+             color: white;
+             background-color:rgba(226,36,98,255) ;
+             cursor: pointer;
+         }
+         .java{
+                display:inline-block;
+                margin-top: 8px;
+                margin-right: 5px;
+                border: 1px solid #e22462;
+                     width:20%;
+                     padding: 7px;
+                     border-radius: 15px;
+                     color: white;
+                     background-color:rgba(226,36,98,255) ;
+                     cursor: pointer;
+                    }
+                 .python{
+                    display:inline-block;
+                margin-top: 8px;
+                border: 1px solid #e22462;
+                     width:30%;
+                     padding: 7px;
+                     border-radius: 15px;
+                     color: white;
+                     background-color:rgba(226,36,98,255) ;
+                     cursor: pointer;
+                    }
+         .movies{
+            display:inline-block;
+            margin-top: 8px;
+            margin-right: 5px;
+            border: 1px solid #e22462;
+                 width:31%;
+                 padding: 7px;
+                 border-radius: 15px;
+                 color: white;
+                 background-color:rgba(226,36,98,255) ;
+                 cursor: pointer;
+                }
+         .diffColor{
+            display:inline-block;
+        
+            border: 1px solid #8c74e9;
+                 width:40%;
+                 padding: 7px;
+                 border-radius: 15px;
+                 color: white;
+                 background:linear-gradient(to right top,#b234da,#5aaaf6);
+                 cursor: pointer;
+                }
+         .para {
+           display: flex;
+           flex-direction: column;
+           margin-left: 17%;
+           margin-top:20px;
+        border: 1px solid #f5f4f4;
+       
+        }
+         .para .one, 
+         .para .two, 
+         .para .three, 
+         .para .four {
+            border: 2px solid #f5f4f4;
+            border-radius: 3px;
+            background-color: white;
+            padding:15px;
+         margin-bottom: 20px;
+        margin-top: 15px;
+        margin-right: 200px;
+        
+        }
+         
+         .notBold {
+         font-weight: normal;
+         color: gray; 
+         }
+         
+         .bold {
+         font-weight: bold;
+         color: black; 
+         }
+         
+         .collor {
+         color: blue; 
+         cursor: pointer;
+        }
+         
+        
+</style>
+
+    <div class="Headder">
+        <h1>TinyThoughts</h1>
+        <div class="TopButtons">
+            <span class="o">Home</span>
+            <span class="t">New Post</span>
+            </div>
+            <Div class="next">
+            <span class="thr">Signin</span>
+            <Span class="fou">signup</Span>
+            </Div>
+    </div>
+    <hr/>
+    <div class="total">
+    <div class="SideButton">
+        <span class="script">JavaScript</span>
+        <span class="react">React</span>
+        <br>
+        <div class="node">Node.js</div>
+        <br>
+        <span class="router">React Router</span>
+        <br>
+        <div class="redux">Redux</div>
+        <div class="graph">GraphQL</div>
+        <br>
+        <div class="html5">HTML5</div>
+        <div class="css">CSS3</div>
+        <br>
+        <span class="java">Java</span>
+        <span class="python">Python</span>
+        <br>
+        <span class="movies">Movies</span>
+        <span class="diffColor">All Posts</span>
+    </div>
+    <div class="para">
+        <div class="one">
+            <h3>This was funny</h3>
+            <p class="notBold">by <span class="collor">Homer Simpson | Node.js</span> | Posted on Thursday, November 28th 2019, 4:36:09 pm</p>
+            <p class="bold">So, I saw this video on Youtube and this guy was teaching something called "Naahd Daaht Jee Esss". 
+                I mean, if you have to teach French, do it properly!</p>
+        </div>
+        
+        <div class="two">
+            <h3>Java, eh?</h3>
+            <p class="notBold">by <span class="collor">Homer Simpson | Java</span> | Posted on Thursday, November 28th 2019, 4:34:43 pm</p>
+            <p class="bold">Doh!</p>   
+        </div>
+    
+        <div class="three">
+            <h3>Why React??</h3>
+            <p class="notBold">by <span class="collor">Homer Simpson | React</span> | Posted on Thursday, November 28th 2019, 4:34:06 pm</p>
+            <p class="bold">Why do you have to React to everything? I mean all I said was that the reactor was gonna</p>
+        </div>
+    
+        <div class="four">
+            <h3>Thoughts on JavaScript</h3>
+            <p class="notBold">by <span class="collor">Homer Simpson | JavaScript</span> | Posted on Thursday, November 28th 2019, 4:31:45 pm</p>
+            <p class="bold">I love a hot cuppa Java with my donuts. Particularly when I'm reading the script for my new movie. Java and Script, mmmm, delicious!</p>
+        </div>
+    </div>
+    </div>
+  
+</body>
+</html>
